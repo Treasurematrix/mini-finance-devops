@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# SSH Keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Ansible temp files
+*.retry
+
+# OS files
+.DS_Store
